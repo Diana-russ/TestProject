@@ -1,25 +1,29 @@
 <html>
-
-<head>
-	<title>Сообщение об ошибке</title>
-	<link rel="stylesheet" type="text/css" href="./CSS/style.css">	
-</head>
-
-<body onload="record();">
-	<div class="style1">
-		<div class="style2">
-		Обратная связь.
+	<head>
+		<title>Сообщение об ошибке</title>
+		<link rel="stylesheet" type="text/css" href="./Css/style.css">	
+	</head>
+	<body>
+		<div class="message">
+			<div class="title">
+				Обратная связь.
+			</div>
+			<div class="div_input">
+				<form >
+					<input type="email" name="guruweba_example_email" placeholder="Email" id="input_email" class="div_input" >
+					<input type="text" name="familia" placeholder="Фамилия" id="input_text_fam" class="div_input">
+					<input type="text" name="name" placeholder="Имя" id="input_text_name" class="div_input">
+					<input type="text" name="othestvo" placeholder="Отчество" id="input_text_othestvo" class="div_input">
+					<textarea name="sms" placeholder="Сообщение" id="style_textarea"></textarea>
+					
+				</form>
+			</div>
+			<div class="button">
+				<input type="file" accept="image/png, image/jpeg" id="selecting_faile">
+				<button id="sendbutton" class="function_button">Функция</button>
+			</div>
 		</div>
-		<input type="email" name="guruweba_example_email" placeholder="Email" class="style3" id="input_email" >
-		<input type="text" name="familia" placeholder="Фамилия" class="style3" id="input_text_fam">
-		<input type="text" name="name" placeholder="Имя" class="style3" id="input_text_name">
-		<input type="text" name="othestvo" placeholder="Отчество" class="style3" id="input_text_othestvo">
-		<textarea name="sms" placeholder="Сообщение" id="textarea"></textarea>
-		<input type="file" accept="image/png, image/jpeg" id="selecting_faile">
-		<button id="sendbutton">Функция</button>
-	</div>
-	<img id="imges"></img>
-	<script src="./JS/script.js"></script>
-</body>
-
+			<img id="imges"></img>
+			<script src="./Js/Js.js"></script>
+	</body>
 </html>
